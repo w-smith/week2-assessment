@@ -6,7 +6,8 @@ console.log("It's me, ya boii... Javascript");
 $(window).keypress(function(q) {
     if(q.which == 113)
     console.log("racer1");
- $("#racer1").animate({width: "+=100px"});
+$("#racer1").animate({left: "+=50"});
+
 });
 
 
@@ -17,7 +18,7 @@ $(window).keypress(function(q) {
 $(window).keypress(function(p) {
     if(p.which == 112)
     console.log("racer2");
-$("#racer2").animate({width: "+=100px"});
+$("#racer2").animate({left: "+=50"});
 });
 
 
