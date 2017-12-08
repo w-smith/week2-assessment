@@ -1,26 +1,29 @@
 body {
-	background: black;
+	background-image: url("../images/desert.jpg");
+	background-repeat: fill;
+	height: 300px;
+	
 }
 
 
 
 #racer1 {
-	height: 100px;
+/*	height: 100px;
 	width: 100px;
-	/*position: absolute;
-	top: 100px;*/
-	background: white;
-	border-radius: 40px;	
+	position: absolute;
+	top: 100px;
+/*	background: white;
+	border-radius: 40px;*/	*/
 }
 
 
 #racer2 {
-	height: 100px;
+/*	height: 100px;
 	width: 100px;
 	background: grey;
 	border-radius: 40px;
 /*	position: absolute;
-	top: 250px;
+	top: 250px;*/
 */
 }
 
