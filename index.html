@@ -2,22 +2,53 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Racer Game</title>
+	<!-- title -->
+	<title>POD RACER</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+
 </head>
+
 <body>
+
+<header>
+<!-- main title -->
+	<h2>POD RACER</h2>
+<!-- player one instructions -->
+		<h3>Player One - Tap 'Q' to move</h3>
+			<br>
+			<br>
+<!-- player 2 instructions -->
+		<h3>Player Two - Tap 'P' to move</h3>
+</header>
+
 	
-<div id="racer1">
-	<img src="images/anakin.png" alt="anakin">
+<!-- race course div -->
+<div id="board">	
+
+
+<!-- racer1 -->
+
+	<div>
+		<img id="racer1" src="images/anakin.png" alt="anakin">
+	</div>
+
+		<br>
+
+<!-- racer 2 -->
+	<div>
+		<img id="racer2" src="images/notAnakin.png" alt="notAnakin">
+	</div>
+
 </div>
 
-<br>
 
-<div id="racer2">
-	<img src="images/notAnakin.png" alt="notAnakin">
+<!-- reset button -->
+<div id="resetDiv">
+	<button id="resetButton">RESET PODS</button>
 </div>
 
-
+<!-- jquery script -->
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

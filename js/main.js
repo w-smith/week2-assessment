@@ -3,7 +3,6 @@ console.log("It's me, ya boii... Javascript");
 
 var arr1 = 0;
 
-
 var arr2 = 0;
 
 $(document).keypress(function(q) {
@@ -39,11 +38,14 @@ $("#racer1").animate({marginLeft: "+=4%"},-200);
 
 $(window).keypress(function(p) {
     if(p.keyCode == 112)
-    // console.log("racer2");
+// console.log("racer2");
 $("#racer2").animate({marginLeft: "+=4%"},-200);
 });
 
+// reset button
 
-
+    $('#resetDiv').click(function() {
+    location.reload();
+    });
 
 

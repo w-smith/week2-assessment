@@ -1,0 +1,82 @@
+
+
+/*body*/
+
+body {
+margin: 0;
+background: black;
+font-family: 'Russo One', sans-serif;
+}
+
+
+/*div containing all page elements*/
+
+#bodyDiv {
+background-image: url(../images/palace.png);
+background-repeat: no-repeat;
+background-size: cover;
+margin: auto 0;
+}
+
+/*div containing title dont*/
+
+#titleDiv{
+padding-top: 12%;
+padding-bottom: 5%;
+}
+
+
+/*title font*/
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+	color: yellow;
+	margin: 0 0 0 0;
+	-webkit-text-stroke-width: 2px;
+   	-webkit-text-stroke-color: black;
+}
+
+
+/*link text decoration*/
+
+a {
+		text-decoration: none;
+		color: yellow;
+}
+
+
+/*link font*/
+
+h3 {
+	margin: 0;
+	font-size: 30px;
+	font-weight: 800;
+	font-family: 'Russo One', sans-serif;
+	padding: 0 20px;
+}
+
+
+#startButton {
+
+	/*button appearance*/
+	background: black;
+	border: 4px solid yellow;
+	color: yellow;
+	border-radius: 10px;
+	text-align: center;
+	height: 100px;
+	width: 400px;
+	margin-bottom: 10%;
+	/*button location*/
+
+}
+
+
+#startDiv {
+	/*button size*/
+	padding: 2% 0 8% 0;
+	text-align: center;
+
+}
+
